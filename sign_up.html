@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up </title>
+</head>
+<body>
+    <!-- blank for the new page in the browser -->
+    <a href="index.html">Home</a>
+    <a href="Table.html">Table</a>
+    <a href="sign_up.html" >Sign in page </a>
+    <a href="aboutus.html" >About us </a>
+
+    <!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Form</title>
+	</head>
+	<body>
+		<h1>List of elements for the form</h1>
+
+		<!-- POST, GET -->
+		<form action="/form.html" method="POST">
+			<div>
+				<label for="name">Name</label>
+				<input
+					name="userName"
+					type="text"
+					id="name"
+					placeholder="please input your name"
+					required
+				/>
+			</div>
+			<div>
+				<label>phone</label>
+				<input name="phone" type="number" />
+			</div>
+			<div>
+				<label>email</label>
+				<input name="email" type="email" />
+			</div>
+			<div>
+				<label>Password</label>
+				<input name="password" type="password" />
+			</div>
+			<div>
+				<label>Facebook profile </label>
+				<input type="url" />
+			</div>
+			<div>
+				<label>dob </label>
+				<input type="date" />
+			</div>
+			<div>
+				<label>Message </label>
+				<textarea minlength="2" maxlength="5" cols="30" rows="10"></textarea>
+			</div>
+
+			<!-- radio -->
+			<br />
+			<div>
+				Select gender:
+				<input type="radio" name="gender" /> <label> Male</label>
+				<input type="radio" name="gender" /><label> FeMale</label>
+			</div>
+			<br />
+
+			<div><input type="checkbox" /> <label>I agree with the TCs </label></div>
+
+			<!-- slider -->
+			<div>
+				<label>Select the price </label>
+				<input type="range" min="1" max="100" value="80" />
+			</div>
+
+			<!-- drop down select -->
+			<div>
+				<label>Select a fruit </label>
+				<select>
+					<option value="">apple</option>
+					<option value="">banana</option>
+
+					<option value="">mango</option>
+					<option value="">mango</option>
+				</select>
+			</div>
+
+			<div>
+				<label for="">Fruit and Vegi</label>
+				<select name="" id="" multiple>
+					<optgroup label="Fruits">
+						<option value="">apple</option>
+						<option value="">banana</option>
+					</optgroup>
+					<optgroup label="Vegi">
+						<option value="">Beans</option>
+						<option value="">potato</option>
+					</optgroup>
+				</select>
+			</div>
+
+			<div>
+				<label for="">fruits</label>
+				<input type="text" name="" id="appList" list="appLists" />
+
+				<datalist id="appLists">
+					<option value="apple"></option>
+					<option value="banana"></option>
+				</datalist>
+			</div>
+
+			<input type="submit" value="send" />
+		</form>
+	</body>
+</html>
+
+    
+</body>
+</html>

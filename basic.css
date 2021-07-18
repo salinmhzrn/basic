@@ -1,0 +1,36 @@
+p {font-size: 20px;  
+}
+
+div {
+
+font-size: 20px;
+}
+
+#my-div1{
+color: white;
+}
+
+.my-div {
+background-color: red;
+
+}
+
+section p {
+color: green ;
+}
+section p:hover {
+color: red ;
+font-size: 15px;
+}
+
+section > p {
+background-color: red ;
+}
+
+section + p {
+color: purple;
+}
+
+h2 ~ article {
+color: pink;
+}
